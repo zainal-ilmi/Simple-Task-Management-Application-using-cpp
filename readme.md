@@ -5,28 +5,28 @@ It allows users to add, edit, delete, filter, and track tasks with deadlines, st
 
 ✨ Features
 
-📝 Add Tasks
+📝 Add Tasks:
 Create new tasks with title, description, priority, and deadline.
 
-✏️ Edit Tasks
+✏️ Edit Tasks:
 Update task details such as title, due date, or completion status.
 
-🗑️ Delete Tasks
+🗑️ Delete Tasks:
 Remove completed or unnecessary tasks easily.
 
-📆 View Tasks
+📆 View Tasks:
 Display all tasks in a formatted list, sorted by priority or deadline.
 
-🔍 Filter Tasks
+🔍 Filter Tasks:
 Filter tasks by completion status (Pending / Completed).
 
-⏰ Reminders
+⏰ Reminders:
 Tasks nearing their deadlines are highlighted for quick attention.
 
-🔐 User Authentication
+🔐 User Authentication:
 Each user has their own account to save and manage tasks separately.
 
-💾 Local Data Storage
+💾 Local Data Storage:
 All data is saved in a local .txt file — no database setup needed.
 
 ⚙️ Technologies Used
@@ -41,41 +41,42 @@ Environment: Any C++ compiler (Code::Blocks, Visual Studio, g++, etc.)
 
 🧭 How to Use
 
-Clone the repository
+1. Clone the repository
 
-git clone https://github.com/yourusername/task-management-cpp.git
+2. git clone https://github.com/yourusername/task-management-cpp.git
 
-Compile the program
+3. Compile the program
 
-g++ main.cpp -o taskapp
+4. g++ main.cpp -o taskapp
 
-Run the application
+5. Run the application
 
-./taskapp
+6. ./taskapp
 
-Login or register, then start managing your tasks.
+7. Login or register, then start managing your tasks.
 
 👥 Developers
 
 Developed by:
 
-M. Zainal Ilmi
+- M. Zainal Ilmi
 
-Dhio Rizqi N.S
+- Dhio Rizqi N.S
 
-Ailsa Farah H.
+- Ailsa Farah H.
 
-Nasywah Aulia H.
+- Nasywah Aulia H.
 
 📋 Future Improvements
 
-Add color-coded terminal UI
+- Add color-coded terminal UI
 
-Support for calendar view
+- Support for calendar view
 
-Add task sorting by priority
+- Add task sorting by priority
 
-Save data in CSV or JSON format
+- Save data in CSV or JSON format
+
 
 
 
