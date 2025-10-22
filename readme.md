@@ -1,29 +1,50 @@
--APLIKASI MANAJEMEN TUGAS-
+🗂️ Task Management App (C++)
 
--Fungsi Utama
-1. Registrasi dan Login:
--Pengguna dapat mendaftar dengan username dan password yang disimpan dalam file users.csv.
--Fitur lupa password memungkinkan pengguna melihat password mereka berdasarkan username.
-2. Manajemen Tugas:
--Menambah tugas baru dengan nama, mata kuliah, dan tenggat waktu.
--Melihat daftar tugas dalam bentuk tabel.
--Mengedit detail tugas atau status (Belum/Selesai).
--Menghapus tugas tertentu.
-3. Pencarian dan Filter:
--Mencari tugas berdasarkan nama, status, atau mata kuliah.
-4. Notifikasi Tenggat:
--Menampilkan peringatan untuk tugas yang mendekati tenggat berdasarkan pengaturan hari notifikasi.
-5. Pengaturan Notifikasi:
--Memungkinkan pengguna mengubah batas hari notifikasi (minimal 1 hari).
+A console-based Task Management Application built in C++, designed to help users organize their daily tasks, assignments, and projects efficiently.
+It allows users to add, edit, delete, filter, and track tasks with deadlines, statuses, and reminders — all stored locally in a simple text file.
 
--Syarat Menjalankan 
-1. Kompiler c++(mingwg++)
-2. Aktifkan unicode, (File -> Preferences -> Settings -> files.encoding -> set UFT-8 -> Centang Auto Guess)
+✨ Features
+📝 Add Tasks
+Create new tasks with title, description, priority, and deadline.
+✏️ Edit Tasks
+Update task details such as title, due date, or completion status.
+🗑️ Delete Tasks
+Remove completed or unnecessary tasks easily.
+📆 View Tasks
+Display all tasks in a formatted list, sorted by priority or deadline.
+🔍 Filter Tasks
+Filter tasks by completion status (Pending / Completed).
+⏰ Reminders
+Tasks nearing their deadlines are highlighted for quick attention.
+🔐 User Authentication
+Each user has their own account to save and manage tasks separately.
+💾 Local Data Storage
+All data is saved in a local .txt file — no database setup needed.
 
-Pengembang
-1. Kelompok : 8
-2. Nama : Dhio Rizqi Novan Saputra (23081010277)
-          M. Zainal Ilmi           (23081010072)
-          Nasywah Aulia            (23081010205)
-          Ailsa Farah              (23081010212)
-          M. Bintang Adrian        (23081010292)
+⚙️ Technologies Used
+Language: C++
+Data Storage: Local text file (tasks.txt)
+Libraries: <iostream>, <fstream>, <string>, <vector>, <iomanip>
+Environment: Any C++ compiler (Code::Blocks, Visual Studio, g++, etc.)
+
+🧭 How to Use
+Clone the repository
+git clone https://github.com/yourusername/task-management-cpp.git
+Compile the program
+g++ main.cpp -o taskapp
+Run the application
+./taskapp
+Login or register, then start managing your tasks.
+
+👥 Developers
+Developed by:
+M. Zainal Ilmi
+Dhio Rizqi N.S
+Ailsa Farah H.
+Nasywah Aulia H.
+
+📋 Future Improvements
+Add color-coded terminal UI
+Support for calendar view
+Add task sorting by priority
+Save data in CSV or JSON format
